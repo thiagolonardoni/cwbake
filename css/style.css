@@ -90,6 +90,11 @@ body {
   justify-items: center;
  }
 
+.slideshow-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  }
 .slideshow-container {
   overflow: hidden;
   max-width: 100%;
@@ -100,11 +105,6 @@ body {
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
-.slideshow-container img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  }
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1s;
